@@ -1,0 +1,37 @@
+
+.main-page{
+    width: 70%;
+    margin: auto
+}
+
+.counting-Container{
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #a6e7df;
+}
+.count{
+    width: 48%;
+    border-radius: 20px;
+    background-color: #d6b8d1;
+}
+
+.Main-Adopt,.Main-AfterAdopt,.Main-Notice{
+    margin-top: 100px;
+    /* height: 350px; */
+    /* background-color: #f3e993; */
+}
+
+.Adopt-Text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.plus-btn{
+    font-size: 35px;
+    color: #93b0f3;
+}
+
+
