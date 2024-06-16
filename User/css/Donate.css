@@ -1,0 +1,26 @@
+.Donate-Container{
+    width: 70%;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+}
+
+.Donate-btn {
+    font-size: 50px;
+    /* background-color: #a26565; */
+    width: 420px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 2px 6px 5px #a2a2a26e;
+    transition-duration: 0.3s;
+}
+.Donate-btn:active {
+    box-shadow: inset 2px 6px 5px #a2a2a26e;
+}
