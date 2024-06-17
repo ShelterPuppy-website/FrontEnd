@@ -1,92 +1,92 @@
 .modal-header {
-    align-items: start !important;
+  align-items: start !important;
 }
-.modal-dialog {max-width: 600px !important;}
-
-
-
-.container-Modal{
-    width: 600px;
-    border-radius: 10px;
-    border: 1px solid ;
-}
-.Adopt-con{
-    display: flex;
-    margin-bottom: 20px;
-    flex-direction: row;
-    justify-content: center;
-}
-.Adopt-btn{
-    padding-bottom: 15px;
-    padding-right: 10px;
-}
-.Adopt-btn1{
-    margin-right: 20px;
-}
-.card-text{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom:0 !important;
-}
-.gender{
-    font-size: 25px;
-    padding: 0 10px;
-}
- 
-.TextCon-Age{
-    display: flex;
-    list-style: none;
-    padding: 10px 5px 0 0;
-    margin-bottom:0 !important;
+.modal-dialog {
+  max-width: 600px !important;
 }
 
-.Animal-age{
-    color: #9B9B9B;
-    border-right: 1.5px solid #9B9B9B;
-    padding-right: 5px;
-    font-size: 20px !important;
+.container-Modal {
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid;
 }
-.Animal-kind{
-    color: #9B9B9B;
-    padding-left: 5px;
-    font-size: 20px !important;
+.Adopt-con {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
 }
-
-.Second-con{
-    margin: 30px
+.Adopt-btn {
+  padding-bottom: 15px;
+  padding-right: 10px;
 }
-.List-Title{
-    width: 100px;
-    margin-right: 10px;
+.Adopt-btn1 {
+  margin-right: 20px;
 }
-.rowspan-padding{
-    padding:none !important;
+.card-text {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0 !important;
 }
-.Third-con{
-    width: 90%;
-    margin: 30px auto;
-    padding: 10px;
-    border: 1px solid #333;
-    border-radius: 10px;
-}
-.AfterAdopt-con{
-    margin: 30px auto;
-    padding: 10px;
-    border: 1px solid #333;
-    border-radius: 10px;
-}
-.forth-con{
-    height: 200px;
-    width: 90%;
-    margin: 30px auto;
-    padding: 10px;
-    border: 1px solid #333;
-    border-radius: 10px;
+.gender {
+  font-size: 25px;
+  padding: 0 10px;
 }
 
-.List-con{
-    padding-right: 20px;
+.TextCon-Age {
+  display: flex;
+  list-style: none;
+  padding: 10px 5px 0 0;
+  margin-bottom: 0 !important;
 }
-.list-height{
-    height: 30px;
+
+.Animal-age {
+  color: #9b9b9b;
+  border-right: 1.5px solid #9b9b9b;
+  padding-right: 5px;
+  font-size: 20px !important;
+}
+.Animal-kind {
+  color: #9b9b9b;
+  padding-left: 5px;
+  font-size: 20px !important;
+}
+
+.Second-con {
+  margin: 30px;
+}
+.List-Title {
+  width: 100px;
+  margin-right: 10px;
+}
+.rowspan-padding {
+  padding: none !important;
+}
+.Third-con {
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.AfterAdopt-con {
+  margin: 30px auto;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.forth-con {
+  height: 200px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.List-con {
+  padding-right: 10px;
+}
+.list-height {
+  height: 30px;
 }

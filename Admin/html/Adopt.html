@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입양 관리자</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/AdminAdopt.css">
+  </head>
+  <body>
+    <div class="container-fluid Ah-100">
+      <div class="Admin-header" id="header">
+        <a class="navbar-brand Logo" href="#">
+          <img src="../Image/logo.png" alt="" class="Logo" />
+        </a>
+      </div>
+      <div class="row Ah-96 User-Layout-backgroundColor">
+        <div class="Admin-layout-Nav Ah-96 sidebar bg-light" id="nav"></div>
+        <div class="Admin-layout-Content Ah-96 User-Layout-Container" id="content-container">
+          <div class="Admin-Adopt">
+            <div class="AA-list">
+                <select name="" id="" style="margin-bottom: 10px;">
+                    <option value="">입양중</option>
+                    <option value="">입양완료</option>
+                </select>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">No.</th>
+                        <th scope="col">이름</th>
+                        <th scope="col">등록일</th>
+                        <th scope="col">상태</th>
+                        <th scope="col">할거</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>흰둥이</td>
+                        <td>2023-2-1</td>
+                        <td><button type="button">입양완료</button></td>
+                        <td>
+                            <button  type="button">수정</button>
+                            <button  type="button">등록</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>흰둥이</td>
+                        <td>2023-2-1</td>
+                        <td><button type="button">입양완료</button></td>
+                        <td>
+                            <button  type="button">수정</button>
+                            <button  type="button">등록</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>흰둥이</td>
+                        <td>2023-2-1</td>
+                        <td><button type="button">입양완료</button></td>
+                        <td>
+                            <button  type="button">수정</button>
+                            <button  type="button">등록</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>흰둥이</td>
+                        <td>2023-2-1</td>
+                        <td><button type="button">입양완료</button></td>
+                        <td>
+                            <button  type="button">수정</button>
+                            <button  type="button">등록</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="pagination">
+                    <nav class="nav-center">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&#60;</span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&#62;</span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+            </div>
+            <div class="AA-form">
+                <form class="row g-3">
+                    <div class="col-md-6 AA-form-padding">
+                      <label for="inputName" class="form-label">이름</label>
+                      <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-6 AA-form-padding">
+                      <label for="inputAge" class="form-label">나이</label>
+                      <input type="text" class="form-control" id="inputAge">
+                    </div>
+                    <div class="col-md-6 AA-form-padding">
+                        <label for="inputName" class="form-label">성별</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="Male" value="option1" checked>
+                            <label class="form-check-label" for="Male">여자</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="FeMale" value="option2">
+                            <label class="form-check-label" for="FeMale">남자</label>
+                          </div>
+                      </div>
+                      <div class="col-md-6 AA-form-padding">
+                        <label for="inputName" class="form-label">중성화여부</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="chooseGender" id="noGender" value="option1" checked>
+                            <label class="form-check-label" for="noGender">미완료</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="chooseGender" id="yesGender" value="option2">
+                            <label class="form-check-label" for="yesGender">완료</label>
+                          </div>
+                      </div>
+                    <div class="col-6 AA-form-padding">
+                      <label for="inputhealth" class="form-label">건강</label>
+                      <input type="text" class="form-control" id="inputhealth">
+                    </div>
+                    <div class="col-6 AA-form-padding">
+                        <label for="Saveplace" class="form-label">구조장소</label>
+                        <input type="text" class="form-control" id="Saveplace" >
+                    </div>
+                    <div class="col-12 AA-form-padding">
+                        <label for="Active" class="form-label">활동량</label>
+                        <input type="text" class="form-control" id="Active" >
+                    </div>
+                    <div class="col-6 AA-form-padding">
+                        <label for="ect" class="form-label">설명</label>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="ect"></textarea>
+                    </div>
+                      <div class="col-6 AA-form-padding">
+                        <label for="specialNote" class="form-label">특이사항</label>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="specialNote"></textarea>
+                    </div>
+                   
+                    <div class="col-12 AA-form-padding">
+                      <button type="submit" class="btn btn-primary" style="margin-top: 10px; float: right;">Sign in</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/layout.js"></script>
+  </body>
+</html>

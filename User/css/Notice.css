@@ -48,14 +48,14 @@
 }
 
 .form-label {
-  width: 70px;
+  width: 100px;
   margin-right: 5px;
   font-size: 18px;
   margin-bottom: 0 !important;
 }
 
 .QnA-Category {
-  width: 300px
+  width: 300px;
 }
 
 .QnA-person {
@@ -87,7 +87,7 @@
 }
 
 .custom::after {
-  content: '\25BC';
+  content: "\25BC";
   /* 화살표 문자 */
   position: absolute;
   right: 10px;
@@ -169,7 +169,6 @@
 
 /* FAQ Style */
 
-
 .search-container {
   width: 1000px;
   border-bottom: 2px solid #000;
@@ -197,7 +196,6 @@
   font-weight: bolder;
   color: #5e5e5e;
 }
-
 
 /* Notice Style */
 .Notice-Table-Container {
