@@ -2,11 +2,11 @@
 const nav = document.querySelector("#nav");
 
 
-header.innerHTML= `
-        
-`;
+// header.innerHTML= `
 
-nav.innerHTML= `
+// `;
+
+nav.innerHTML = `
         <nav class="nav flex-column Ah-96">
                     <a class="nav-link" href="#" onclick="loadContent('page1.html')">입양하기</a>
                     <a class="nav-link" href="#" onclick="loadContent('page2.html')">입양후기</a>

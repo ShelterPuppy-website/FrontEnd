@@ -1,72 +1,72 @@
 /* 입양하기 보드 */
 .Gallery-gird {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px 30px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 30px;
+  margin-top: 20px;
 }
-.Adopt-Page-Gallery-gird{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px 30px;
-    margin-top: 20px;
-}
-
-.Adopt-card>img{
-    border-radius: 8px;
+.Adopt-Page-Gallery-gird {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 30px;
+  margin-top: 20px;
 }
 
-.card-topText{
-    font-size: 15px;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
+.Adopt-card > img {
+  border-radius: 8px;
 }
 
-.card-topText span{
-    padding-left: 5px;
-    border-left: 2px solid #6b6b6b;
-}
-.card-bottomText{
-    font-size: 13px;
-    color: #a3a3a3;
+.card-topText {
+  font-size: 15px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-.Adopt-tags{
-    display: flex;
-    padding-top: 10px;
+.card-topText span {
+  padding-left: 5px;
+  border-left: 2px solid #6b6b6b;
 }
-.tags{
-    padding: 5px 10px;
-    border-radius: 30px;
-    margin-right: 5px;
-    color: #f4f7ff;
-    background-color: #7086a4;
-    font-size: 12px;
+.card-bottomText {
+  font-size: 13px;
+  color: #a3a3a3;
+}
+
+.Adopt-tags {
+  display: flex;
+  padding-top: 10px;
+}
+.tags {
+  padding: 5px 10px;
+  border-radius: 30px;
+  margin-right: 5px;
+  color: #f4f7ff;
+  background-color: #7086a4;
+  font-size: 12px;
 }
 
 /* 입양후기 */
-.card-Title{
-    padding: 10px 0;
-    font-size: 20px;
-    font-weight: 600;
+.After-card-Title {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
 }
-.card-Date{
-    padding: 10px 0;
-    color: #6b6b6b;
-}
-
-.Donate-Banner{
-    width: 100%;
-    height: 300px;
-    margin-top: 50px;
-    background-color: #765b5b88;
+.After-card-Date {
+  padding: 10px 0;
+  color: #6b6b6b;
 }
 
-.card-text{
-    font-size: 15px;
+.Donate-Banner {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  background-color: #765b5b88;
 }
 
-.card-Date{
-    font-size: 12px;
+.After-card-text {
+  font-size: 15px;
+}
+
+.After-card-Date {
+  font-size: 12px;
 }
